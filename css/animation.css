@@ -1,0 +1,13 @@
+.action       {  
+        transition: -webkit-transform .50s;
+        transform-origin: 50% 50%;
+        transform:scale(0.0);
+        opacity:0
+}
+
+svg#all:hover .action  {    
+        transform:scale(1.1);
+        opacity:1;
+        
+    
+}
